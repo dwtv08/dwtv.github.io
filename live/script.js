@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://op-group1-swiftservehd-1.dens.tv//h//h15//index.m3u8?app_type=web&userid=lite&chname=ROCK_Action';
+  const source = 'https://tvpull.careryun.com/live/ballbar_37290.m3u8';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
