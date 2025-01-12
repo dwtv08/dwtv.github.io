@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://tvpull.careryun.com/live/ballbar_38800.m3u8';
+  const source = 'https://rr2---sn-npoe23nsr.creativehub.sbs/Ligue_1_Match_1_BU/index.m3u8?googlekey=335747e1856cb0d4da981b5dc6d17584cea9b084845a3a43a74a65c3386f7763&keyhash=335747e1856cb0d4da981b5dc6d17584cea9b084845a3a43a74a65c3386f7763';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
