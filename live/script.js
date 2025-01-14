@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://c365pv.soft4game.com/o51/stream4/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xNC8yMDI1IDQ6MDA6MDAgUE0maGFzaF92YWx1ZT1zSXd3enlXSllIQWF1WWhsL2lIWmhnPT0mdmFsaWRtaW51dGVzPTEyMCZpZD01';
+  const source = 'https://yhjkrf.site/chunklist/hlsch5.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xNC8yMDI1IDUgOjQyIDozMCAgUE0maGFzaF92YWx1ZT1TOEh0RSt2ZFE5WWd5U3RyS01JZUp3PT0mdmFsaWRtaW51dGVzPTcyMCZpZD0xMDMuMjQyLjEwNS4zMSZzdHJtX2xlbj01';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
