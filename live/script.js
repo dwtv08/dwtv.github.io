@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://yhjkrf.site/chunklist/hlsch1.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xNS8yMDI1IDggOjExIDo1MSAgUE0maGFzaF92YWx1ZT1LVVRtMFREbkZkT1FrbnFKN2RITDVRPT0mdmFsaWRtaW51dGVzPTcyMCZpZD0xMDMuMjQyLjEwNS4zMSZzdHJtX2xlbj01';
+  const source = 'https://nflarcadia.xyz/bRtT37sn3w/Sx5q6YTgCs/8.m3u8';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
