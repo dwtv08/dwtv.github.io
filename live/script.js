@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://nflarcadia.xyz/bRtT37sn3w/Sx5q6YTgCs/8.m3u8';
+  const source = 'https://tvpull.careryun.com/live/ballbar_33130.m3u8?mau_maling_ya_babilah_kau';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
