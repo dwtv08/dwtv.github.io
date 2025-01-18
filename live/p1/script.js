@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://sut2.dbcast.live/et1qOqKKb-J77cDE72RzYQ/1737240392/3130332e3234322e3130352e3331/ff647/playlist.m3u8';
+  const source = 'https://yhjkrf.site/chunklist/hlsch31.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xOC8yMDI1IDIgOjU0IDowOSAgUE0maGFzaF92YWx1ZT1RMVZnaXlSWnJoL1Q2aGhBenJDWUNBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD0xMDMuMjQyLjEwNS4zMSZzdHJtX2xlbj01';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
