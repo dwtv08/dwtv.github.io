@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://yhjkrf.site/chunklist/hlsch31.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xOC8yMDI1IDIgOjU0IDowOSAgUE0maGFzaF92YWx1ZT1RMVZnaXlSWnJoL1Q2aGhBenJDWUNBPT0mdmFsaWRtaW51dGVzPTcyMCZpZD0xMDMuMjQyLjEwNS4zMSZzdHJtX2xlbj01';
+  const source = 'https://tvpull.careryun.com/live/ballbar_8770.m3u8?mau_maling_ya_babilah_kau';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
