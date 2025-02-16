@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://nflarcadia.xyz/bRtT37sn3w/Sx5q6YTgCs/2.m3u8';
+  const source = 'https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1739699437-0-0-f909ebdb66b5c736ec136b4610cf7108';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
