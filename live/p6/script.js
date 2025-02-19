@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://bf.jl4play.com/live/322693_hd01.m3u8?txSecret=6a40a6f97663d86880cdc29a7cfc9962&txTime=67a89536';
+  const source = 'https://a.blockblasthehe.xyz/tnt1/tracks-v1a1/mono.m3u8';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
