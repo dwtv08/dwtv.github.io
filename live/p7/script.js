@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://nflarcadia.xyz/bRtT37sn3w/Sx5q6YTgCs/2.m3u8';
+  const source = 'https://a.blockblasthehe.xyz/tnt4/tracks-v1a1/mono.m3u8';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
