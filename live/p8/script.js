@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://pull.niues.live/live/stream-235232_lhd.m3u8?auth_key=1739699437-0-0-f909ebdb66b5c736ec136b4610cf7108';
+  const source = 'https://a.blockblasthehe.xyz/tnt3/tracks-v1a1/mono.m3u8';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
