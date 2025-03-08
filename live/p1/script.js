@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://hls.uouetrq19.com/live/hd-en-6MsFQs1m8Lij927gbH.m3u8?txSecret=f183e848e59344e0a5912fc87b7d57e4&txTime=67CD89D0';
+  const source = 'https://hls.uouetrq19.com/live/hd-en-6MsFQs1m8Bvof6p1yh.m3u8?txSecret=b252a5230c942e97924755e39acaba8f&txTime=67CDAE5F';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
