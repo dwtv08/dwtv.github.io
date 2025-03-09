@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://a.blockblasthehe.xyz/tnt4/tracks-v1a1/mono.m3u8';
+  const source = 'https://yhjkrf.site/chunklist/hlsch7.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My85LzIwMjUgNSA6NDQgOjQ0ICBQTSZoYXNoX3ZhbHVlPUY0R3NLYVRSa2NndVQ0TFVRN0NvalE9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTEwMy4yNDIuMTA1LjMxJnN0cm1fbGVuPTU=';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
