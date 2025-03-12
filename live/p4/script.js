@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://51a.pricesaskeloadsc.com/global/tnt_1_gb/index.m3u8?token=b4d5b43fff5e42254b73157a34027da47cf1d094-a4-1741738614-1741706214';
+  const source = 'https://hls.uouetrq19.com/live/hd-en-6MtJQX23mcFHiE8KYj.m3u8?txSecret=c9b9dfa97a7ea69888fcbdd7a3e44001&txTime=67D33943';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
