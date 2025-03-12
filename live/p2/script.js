@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const source = 'https://i.kitescdnz.net/live/v1/NMwT9RD8Ix7CDW2ur-R5BnQNuoIx2yKUedg4jRCuVESGa4DbYLurOQ3EyjMVkUuWI+WPKzqxol7ADAHr1ZwNuA==/index.m3u8';
+  const source = 'https://cdnbl.megame.org/live/56fae55a7d25/playlist.m3u8';
   const video = document.querySelector('video');
 
   // For more options see: https://github.com/sampotts/plyr/#options
