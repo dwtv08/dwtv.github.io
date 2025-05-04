@@ -1,1 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.player-container {
+  position: relative;
+  background: #000;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 900px;
+  height: 500px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-weight: bold;
+  padding: 5px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.custom-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+}
+
+.custom-controls button,
+.custom-controls select {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.custom-controls button:hover,
+.custom-controls select:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.custom-controls input[type="range"] {
+  width: 60%;
+  cursor: pointer;
+  accent-color: #ffffff;
+  border-radius: 6px;
+}
+
+.custom-controls span {
+  font-size: 14px;
+}
+
+.custom-controls select {
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .custom-controls {
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .custom-controls input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .custom-controls button,
+  .custom-controls select {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+/* Fullscreen styling */
+#playerContainer:-webkit-full-screen {
+  width: 100%;
+  height: 100vh;
+}
+
+#playerContainer:-moz-full-screen {
+  width: 100%;
+  height: 100vh;
+}
+
+#playerContainer:fullscreen {
+  width: 100%;
+  height: 100vh;
+}
+
+video:fullscreen {
+  width: 100%;
+  height: 100%;
+}
