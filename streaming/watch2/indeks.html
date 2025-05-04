@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Stream</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+  <div id="video-container">
+    <video id="video" controls autoplay></video>
+    <div class="button-group">
+      <button onclick="playStream('https://example.com/live1.m3u8')">Live 1</button>
+      <button onclick="playStream('https://example.com/live2.m3u8')">Live 2</button>
+    </div>
+  </div>
+
+  <script>
+    const video = document.getElementById('video');
+
+    function playStream(url) {
+      if (Hls.isSupported()) {
+        const hls = new Hls();
+        hls.loadSource(url);
+        hls.attachMedia(video);
+      } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+        video.src = url;
+      } else {
+        alert("Browser tidak mendukung HLS.");
+      }
+    }
+
+    // Default stream
+    playStream('https://example.com/live1.m3u8');
+  </script>
+</body>
+</html>
