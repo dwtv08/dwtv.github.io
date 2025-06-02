@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rufus Clone - Downloads</title>
+<style>
+  /* Reset */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0; padding: 2rem 1rem;
+    color: #2a2a2a;
+  }
+  a {
+    color: #0069d9;
+    text-decoration: none;
+  }
+  a:hover, a:focus {
+    text-decoration: underline;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  header h1 {
+    font-weight: 700;
+    margin: 0 0 0.25rem 0;
+  }
+  header p {
+    margin: 0;
+    color: #555;
+    font-size: 1rem;
+  }
+
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgb(0 0 0 / 0.1);
+  }
+
+  h2 {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  .download-section {
+    margin-top: 1.8rem;
+    border-top: 1px solid #ddd;
+    padding-top: 1.8rem;
+  }
+  .download-section:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .download-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .download-btn {
+    display: inline-block;
+    background-color: #0069d9;
+    color: white;
+    padding: 0.75rem 1.8rem;
+    font-weight: 700;
+    border-radius: 6px;
+    box-shadow: 0 5px 12px rgb(0 105 217 / 0.4);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1rem;
+    user-select: none;
+  }
+  .download-btn:hover, .download-btn:focus {
+    background-color: #004a99;
+    box-shadow: 0 6px 16px rgb(0 75 153 / 0.6);
+    outline: none;
+  }
+  .download-btn:active {
+    background-color: #003366;
+    box-shadow: 0 2px 6px rgb(0 45 102 / 0.8);
+  }
+
+  .version-info {
+    margin-top: 0.35rem;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  section.note {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.5;
+  }
+  section.note a {
+    color: #0069d9;
+    font-weight: 600;
+  }
+
+  footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #777;
+    user-select: none;
+  }
+
+  /* Responsive */
+  @media (max-width: 480px) {
+    body {
+      padding: 1rem 0.5rem;
+    }
+    main {
+      padding: 1.5rem 1.5rem;
+      margin: 0 0.5rem;
+    }
+    .download-btn {
+      width: 100%;
+      text-align: center;
+      padding: 0.8rem 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>DW Sports</h1>
+  <p>The Official APK Streaming Download</p>
+</header>
+
+<main>
+  <h2>Downloads</h2>
+
+  <div class="download-section">
+    <div class="download-title">OTT Navigator 4.1 (Latest version)</div>
+    <button class="download-btn" id="download-latest" aria-label="Download Rufus version 4.1">Download OTT Navigator 1.7.3.1</button>
+    <div class="version-info">Released: June 1, 2025 | Size: 25.1 MB</div>
+  </div>
+
+  <div class="download-section">
+    <div class="download-title">NS Player 7.3 (Previous version)</div>
+    <button class="download-btn" id="download-previous" style="background-color:#6c757d;" aria-label="Download Rufus version 3.19">Download NS Player 7.4</button>
+    <div class="version-info">Released: March 15, 2023 | Size: 7.3 MB</div>
+  </div>
+
+  <section class="note">
+    <p><strong>Note:</strong> Rufus is a standalone executable and requires no installation.</p>
+    <p>For help, check the <a href="#" tabindex="0">FAQ</a> or <a href="#" tabindex="0">Documentation</a>.</p>
+  </section>
+</main>
+
+<footer>
+  © 2025 Kang Wawat
+</footer>
+
+<script>
+  // Example JavaScript to simulate download action
+  const downloads = {
+    latest: 'https://github.com/pbatard/rufus/releases/download/v4.1/rufus-4.1.exe',
+    previous: 'https://github.com/pbatard/rufus/releases/download/v3.19/rufus-3.19.exe'
+  };
+
+  document.getElementById('download-latest').addEventListener('click', () => {
+    alert('Starting download for Rufus 4.1...');
+    window.location.href = downloads.latest;
+  });
+
+  document.getElementById('download-previous').addEventListener('click', () => {
+    alert('Starting download for Rufus 3.19...');
+    window.location.href = downloads.previous;
+  });
+</script>
+
+</body>
+</html>
